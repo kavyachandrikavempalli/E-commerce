@@ -1,0 +1,201 @@
+{
+  "id": "79752cf4-f403-4afd-abd5-b3b9124dab8c",
+  "version": "2.0",
+  "name": "test1",
+  "url": "https://chandrikavya.wixsite.com",
+  "tests": [{
+    "id": "949c337e-8600-4d7e-92f4-1d85cb2b6963",
+    "name": "test1com",
+    "commands": [{
+      "id": "079eb25e-da86-4f8d-90b9-38276db5b073",
+      "comment": "",
+      "command": "open",
+      "target": "/productstore",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61bc1e7a-976a-4920-9a11-5ea17a789477",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "670x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d33d67de-25f9-4c8b-a2cf-b23648adf486",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "317dfe43-775e-4757-a807-99f6bb0ec03d",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ki328v8c0label",
+      "targets": [
+        ["id=comp-ki328v8c0label", "id"],
+        ["css=#comp-ki328v8c0label", "css:finder"],
+        ["xpath=//p[@id='comp-ki328v8c0label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ki328v8c0']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Shop All')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "38f17323-c1af-434b-a83c-bc4a9ea9b7ea",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ki328v8c1label",
+      "targets": [
+        ["id=comp-ki328v8c1label", "id"],
+        ["css=#comp-ki328v8c1label", "css:finder"],
+        ["xpath=//p[@id='comp-ki328v8c1label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ki328v8c1']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Computers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "16b5b4c3-70f8-4f0f-bcb0-db4e5ea4b408",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ki328v8c2label",
+      "targets": [
+        ["id=comp-ki328v8c2label", "id"],
+        ["css=#comp-ki328v8c2label", "css:finder"],
+        ["xpath=//p[@id='comp-ki328v8c2label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ki328v8c2']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[3]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Tablets')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1189842-69c0-438b-a7c5-883aee8cc2b1",
+      "comment": "",
+      "command": "click",
+      "target": "id=comp-ki328v8c3label",
+      "targets": [
+        ["id=comp-ki328v8c3label", "id"],
+        ["css=#comp-ki328v8c3label", "css:finder"],
+        ["xpath=//p[@id='comp-ki328v8c3label']", "xpath:attributes"],
+        ["xpath=//li[@id='comp-ki328v8c3']/a/div/div/p", "xpath:idRelative"],
+        ["xpath=//li[4]/a/div/div/p", "xpath:position"],
+        ["xpath=//p[contains(.,'Drones & Cameras')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "27a3d8bb-c5d4-4bb8-ba48-6d0c79445c00",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,576)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a7bd958-1fe4-449c-a5e1-d307877d11b8",
+      "comment": "",
+      "command": "click",
+      "target": "css=li:nth-child(1) > .ejYUwA img",
+      "targets": [
+        ["css=li:nth-child(1) > .ejYUwA img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://static.wixstatic.com/media/c22c23_67a4de6683784fbbb684418e49d5d854~mv2.png/v1/fill/w_869,h_869,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/c22c23_67a4de6683784fbbb684418e49d5d854~mv2.png')]", "xpath:img"],
+        ["xpath=//div[@id='TPAMultiSection_lq2e9abg']/div/div/div[2]/div[2]/div/div/div[3]/section/div/ul/li/div/div/a/div/div/div/wow-image/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "646f0ab5-f30b-4251-bcb2-f8d26dd546e6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,401.6000061035156)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dab31c6e-2f81-4eb3-ac17-82434f51f807",
+      "comment": "",
+      "command": "click",
+      "target": "css=.oFkcpsQ--focus",
+      "targets": [
+        ["css=.oFkcpsQ--focus", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='TPAMultiSection_lq2e9crz']/div/div/article/div[2]/section[2]/div[9]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf58f392-8b47-4dc0-bd78-72a9afe9e732",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sATEqDU",
+      "targets": [
+        ["css=.sATEqDU", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='TPAMultiSection_lq2e9crz']/div/div/article/div[2]/section[2]/div[9]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "40138f78-3d20-4061-b83e-d2939d665cd1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.oFkcpsQ--focus",
+      "targets": [
+        ["css=.oFkcpsQ--focus", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='TPAMultiSection_lq2e9crz']/div/div/article/div[2]/section[2]/div[9]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a611e60c-d15e-480b-8403-550b63e99390",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=2",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d0a730f-6656-41ee-89b9-a427300834df",
+      "comment": "",
+      "command": "click",
+      "target": "id=widget-view-cart-button",
+      "targets": [
+        ["id=widget-view-cart-button", "id"],
+        ["linkText=View Cart", "linkText"],
+        ["css=#widget-view-cart-button", "css:finder"],
+        ["xpath=//a[@id='widget-view-cart-button']", "xpath:attributes"],
+        ["xpath=(//a[contains(@href, '')])[5]", "xpath:href"],
+        ["xpath=//footer/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c975a3d-d38c-44bb-9734-18698fa29463",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "a18bacb5-58ae-4d6e-856e-8e53fee44efd",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b6e52e54-a52e-42cc-926f-8d1a9af781c7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["949c337e-8600-4d7e-92f4-1d85cb2b6963"]
+  }],
+  "urls": ["https://chandrikavya.wixsite.com/"],
+  "plugins": []
+}

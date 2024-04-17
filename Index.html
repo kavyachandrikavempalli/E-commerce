@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    h1{text-align: center;}
+    h2{text-align: center;}
+    h3{text-align: center;}
+    p{text-align: center;}
+    div{text-align: center;}
+    button{text-align: center;}
+</style>
+<body>
+    <header>
+        <h1>E-commerce Website</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contacts.html">Contact</a></li>
+            <li><a href="cart.html" class="cart-icon"><button style="font-size:24px"><i class="fa fa-shopping-cart" style="font-size:24px"></i></button></a></li>
+            <li><a href="cart.html" class="cart-icon">(<span class="cart-count">0</span>)</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="product-list">
+                <h3>Phones</h3>
+                <ul>
+                    <li>
+                        <div class="product">
+                            <img src="Images/galaxys20.webp" alt="Samsung galaxy s20">
+                            <p>Brand: Samsung</p>
+                            <p>Model: Galaxy S20</p>
+                            <p>Price: $799.99</p>
+                            <button class="add-to-cart" data-name="Samsung galaxy s20" data-price="799.99">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img src="Images/apple12.webp" alt="Apple 12">
+                            <p>Brand: Apple</p>
+                            <p>Model: iPhone 12</p>
+                            <p>Price: $999.99</p>
+                            <button class="add-to-cart" data-name="Apple 12" data-price="999.99">Add to Cart</button>
+                        </div>
+                    </li>
+                    <!-- Add more phone listings -->
+                </ul>
+            </div>
+            <div class="product-list">
+                <h3>Tablets</h3>
+                <ul>
+                    <li>
+                        <div class="product">
+                            <img src="Images/appleipadair.webp" alt="Apple IPAD air">
+                            <p>Brand: Apple</p>
+                            <p>Model: iPad Air</p>
+                            <p>Price: $599.99</p>
+                            <button class="add-to-cart" data-name="Apple IPAD air" data-price="599.99">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img src="Images/galaxytabs7.webp" alt="Samsung galaxy Tab S7">
+                            <p>Brand: Samsung</p>
+                            <p>Model: Galaxy Tab S7</p>
+                            <p>Price: $649.99</p>
+                            <button class="add-to-cart" data-name="Samsung galaxy Tab S7" data-price="649.99">Add to Cart</button>
+                        </div>
+                    </li>
+                    <!-- Add more tablet listings -->
+                </ul>
+            </div>
+            <div class="product-list">
+                <h3>Laptops</h3>
+                <ul>
+                    <li>
+                        <div class="product">
+                            <img src="Images/dell.webp" alt="Dell XPS 13">
+                            <p>Brand: Dell</p>
+                            <p>Model: XPS 13</p>
+                            <p>Price: $999.99</p>
+                            <button class="add-to-cart" data-name="Dell XPS 13" data-price="999.99">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img src="Images/hp.webp" alt="HP Spectre x360">
+                            <p>Brand: HP</p>
+                            <p>Model: Spectre x360</p>
+                            <p>Price: $1299.99</p>
+                            <button class="add-to-cart" data-name="HP Spectre x360" data-price="1299.99">Add to Cart</button>
+                        </div>
+                    </li>
+                    <!-- Add more laptop listings -->
+                </ul>
+            </div>
+            <!-- More products go here -->
+            <div class="product-list">
+                <h3>Mouse</h3>
+                <ul>
+                    <li>
+                        <div class="product">
+                            <img src="Images/logiteck.webp" alt="Logitech MX Master 3">
+                            <p>Brand: Logitech</p>
+                            <p>Model: MX Master 3</p>
+                            <p>Price: $99.99</p>
+                            <button class="add-to-cart" data-name="Logitech MX Master 3" data-price="99.99">Add to Cart</button>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <img src="Images/razer.webp" alt="Razer DeathAdder Elite">
+                            <p>Brand: Razer</p>
+                            <p>Model: DeathAdder Elite</p>
+                            <p>Price: $69.99</p>
+                            <button class="add-to-cart" data-name="Razer DeathAdder Elite" data-price="69.99">Add to Cart</button>
+                        </div>
+                    </li>
+                    <!-- Add more mouse listings -->
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 E-commerce Website. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
